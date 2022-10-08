@@ -14,7 +14,7 @@ Bessie has $k$ minutes，solve for the maximum mushrooms she can collect
 
 increase is a constant $\frac{k(k-1)}{2}$ (optimal），optimal is a linear interval with length $k$ (think why linear）
 
-cases：
+<h3>Cases</h3>：
 
 　　k $<=$ $n$:
 
@@ -26,7 +26,7 @@ cases：
 
 　　　　all $a_i$ sum + extra mushroom 
 
-　　　　consider <font color="red"> complementary counting</font>：
+　　　　consider <h3>complementary counting</h3>：
 
 　　　　　　our gain = total generated - those we have not gain
 
