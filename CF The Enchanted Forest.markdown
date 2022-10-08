@@ -1,3 +1,4 @@
+<h2> Question </h2>: 
 there is an $n$ points line X，every point $i$ has $a_i$ mushrooms，Bessie can start from any point, in each miniute (start at 0 min) the following operations will happen in order：
 
         1. move left 1, right 1, or stay （from position $x$ to $y$，$abs(x-y)<= 1$)
@@ -9,19 +10,19 @@ there is an $n$ points line X，every point $i$ has $a_i$ mushrooms，Bessie can
 Bessie has $k$ minutes，solve for the maximum mushrooms she can collect
 
  
-Solution: 
+<h2> Solution </h2>: 
 
 increase is a constant $\frac{k(k-1)}{2}$ (optimal），optimal is a linear interval with length $k$ (think why linear）
 
 cases：
 
-　　$k$ $<=$ $n$:
+　　k $<=$ $n$:
 
 　　　　optimal is the max linear interval with length $k$ (original mushroom) + (extra mushroom gained) $\frac{k(k-1)}{2}$
 
 　　　　using slide window achieve in $O(n)$
 
-　　$k$ $>$ $n$:
+　　k $>$ $n$:
 
 　　　　all $a_i$ sum + extra mushroom 
 
