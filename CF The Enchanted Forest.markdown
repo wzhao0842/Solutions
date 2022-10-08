@@ -1,4 +1,5 @@
 <h2> Question </h2>: 
+https://codeforces.com/problemset/problem/1687/A
 there is an $n$ points line X，every point $i$ has $a_i$ mushrooms，Bessie can start from any point, in each miniute (start at 0 min) the following operations will happen in order：
 
         1. move left 1, right 1, or stay （from position $x$ to $y$，$abs(x-y)<= 1$)
