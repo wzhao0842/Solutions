@@ -26,7 +26,7 @@ cases：
 
 　　　　all $a_i$ sum + extra mushroom 
 
-　　　　consider complementary counting：
+　　　　consider <font color="red"> complementary counting</font>：
 
 　　　　　　our gain = total generated - those we have not gain
 
