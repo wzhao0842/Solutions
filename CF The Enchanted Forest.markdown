@@ -38,7 +38,7 @@ cases：
 　　　　　　our gain = $k*n$ - $\frac{n(n+1)}{2}$
 
 　　　　　　
-
+,,,
 #include <iostream>
 #include <cstring>
 #include <algorithm>
@@ -74,7 +74,7 @@ signed main(){
         solve();
     }
 }
-
+,,,
  
 
  
