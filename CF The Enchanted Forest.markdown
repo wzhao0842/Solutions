@@ -15,13 +15,13 @@ increase is a constant $\frac{k(k-1)}{2}$ (optimal），optimal is a linear inte
 
 cases：
 
-　　$k <= n$:
+　　$k$ $<=$ $n$:
 
 　　　　optimal is the max linear interval with length $k$ (original mushroom) + (extra mushroom gained) $\frac{k(k-1)}{2}$
 
 　　　　using slide window achieve in $O(n)$
 
-　　$k > n$:
+　　$k$ $>$ $n$:
 
 　　　　all $a_i$ sum + extra mushroom 
 
@@ -38,7 +38,7 @@ cases：
 　　　　　　our gain = $k*n$ - $\frac{n(n+1)}{2}$
 
 　　　　　　
-'''
+```cpp
 #include <iostream>
 #include <cstring>
 #include <algorithm>
@@ -74,7 +74,7 @@ signed main(){
         solve();
     }
 }
-'''
+```
  
 
  
