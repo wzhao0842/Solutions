@@ -26,7 +26,7 @@ increase is a constant $\frac{k(k-1)}{2}$ (optimal），optimal is a linear inte
 
 　　　　all $a_i$ sum + extra mushroom 
 
-　　　　consider <h3>complementary counting</h3>：
+　　　　consider <h6>complementary counting</h6>：
 
 　　　　　　our gain = total generated - those we have not gain
 
